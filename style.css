@@ -6,7 +6,8 @@
 body {
     margin: 0;
     min-height: 100vh;
-    
+    display:flex;
+    justify-content: center;
     background-image: url('/images/cyberpunk_city.jpg');
     min-width: auto;
 }
@@ -32,6 +33,7 @@ body {
     padding-right: 100px;
     gap: 50px;
     background-color: yellow;
+   
 }
 
 .header {
@@ -49,6 +51,7 @@ body {
     color: black;
     font-style: italic;
     font-weight: 900;
+    text-shadow: 0px 0px 11px black;
 }
 
 .rightHeader {
@@ -93,6 +96,8 @@ body {
     font-size: 33px;
     margin-bottom: 15px;
     font-weight: bold;
+    text-shadow: 0px 0px 11px black;
+
 }
 
 .header2text {
@@ -117,8 +122,8 @@ body {
     border: 2px solid black;
     border-radius: 15px;
     margin-bottom: 25px;
-    box-shadow: 42px 62px 126px 0px rgba(0, 0, 0, 0.06);
-    z-index: 4;
+    box-shadow: 2px 4px 16px black;
+    
 }
 
 .content {
@@ -137,6 +142,8 @@ body {
     margin: 25px;
     font-size: 33px;
     font-weight: bold;
+    text-shadow: 0px 0px 11px black;
+
 }
 
 .cards {
@@ -155,7 +162,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 15px;
-    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+    box-shadow: 2px 4px 16px black;
 }
 
 .content2 {
