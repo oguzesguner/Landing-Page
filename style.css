@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     display:flex;
     justify-content: center;
-    background-image: url('/images/cyberpunk_city.jpg');
+    background-image: url('/landing-page/images/cyberpunk_city.jpg');
     min-width: auto;
 }
 
